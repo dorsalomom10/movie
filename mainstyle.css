@@ -1,0 +1,114 @@
+﻿body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-image: url("../img/background5.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header{
+    width:100%;
+    height:165px;
+    border-bottom: solid #ffffff 3px;
+}
+#icon {
+    float:left;
+    height:150px;
+    margin-left:200px;
+}
+#header_content{
+    width:940px;
+    margin:auto;
+}
+#header_title {
+    float: right;
+    margin-right: 300px;
+    margin-top: 5px;
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 10px;
+ 
+}
+#top_nav{
+    width:100%;
+    height:32px;
+    margin-bottom:10px;
+}
+#top_nav_content{
+    margin:auto;
+    width:940px;
+    height:32px;
+}
+#top_nav_content ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+
+}
+#top_nav_content li{
+    margin:0;
+    list-style:none;
+    float:right;
+    width:200px;
+    margin-right:5px;
+    text-align:center;
+    font-weight:bold;
+}
+#top_nav_content li:nth-child(1){
+    margin-right:0;
+}
+#top_nav_content a{
+    display:block;
+    text-decoration:none;
+    font-size:1.1em;
+    line-height:32px;
+    color:#ffffff;
+}
+#top_nav_content a:hover{
+    color:#b200ff;
+}
+footer {
+    width: 100%;
+    height: auto;
+    border-top: solid #ffffff 3px;
+    margin-top:10px;
+}
+#footer_content{
+    width:940px;
+    margin:auto;
+}
+#footer_content h4 {
+   text-align: center;
+ }
+#u_name{
+    color:#ffffff;
+    font-size:16px;
+}
+#logout{
+    color:#ff0000;
+}
+#wrapper {
+    width: 960px;
+    margin: auto;
+    background-image: url('../img/grid_12_unisex.svg');
+    background-size: 960px;
+    /*min-height: 500px;*/
+}
+#v_counter{
+    text-align:center;
+    color:#ff0000;
+}
+#end {
+    clear: both;
+}
+#welcome{
+    width:100%;
+    float:right;
+    margin:10px;
+}
+#welcome span{
+    color:cornflowerblue;
+    font-weight:normal;
+}
+#admin{
+    color:#00ffff
+}

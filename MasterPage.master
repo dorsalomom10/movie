@@ -1,0 +1,49 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="MasterPage.master.cs" Inherits="MasterPage" %>
+<!DOCTYPE html>
+<html>
+<head runat="server">
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/mainstyle.css" rel="stylesheet" />
+    <link rel="shortcut icon"href="img/favicon.png"/>
+    <script src="js/JavaScript.js"></script>
+    <meta charset ="utf-8"/>
+</head>
+<body dir="rtl">
+    <header>
+        <div id ="header_content">
+            <img src ="img/icon3.png" id="icon" />
+            <div id ="header_title">
+                <h1>" movietime "</h1>
+                <h2>אתר הסרטים של ישראל </h2>
+            </div>
+        </div>
+    </header>
+    <nav id="top_nav">
+        <div id="top_nav_content" runat="server">
+            <ul>
+                <li><a href="dramapage.aspx">סרטי דרמה ישראליים </a></li>
+                <li><a href="comedy.aspx">סרטי קומדיה ישראלית </a></li>
+                <li><a href="action.aspx">סרטי אקשן ישראליים </a></li>
+             </ul>
+        </div>
+    </nav>
+    <div id="wrapper">
+        <div id ="welcome">
+            <h5 id="u_name" runat="server"></h5>
+            <a id="admin" href="admin.aspx" runat="server"></a>
+            <span id="spr" runat="server"></span>
+            <a id="logout" href="login.aspx?page=logout" runat="server"></a>
+        </div>
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+    <br id="end"/>
+    </div>
+    <footer>
+        <div id="footer_content">
+            <h4 id="v_counter" runat="server"></h4>
+            <h4>&#169; האתר נבנה ע"י דור סלומון</h4>
+        </div>
+    </footer>
+</body>
+</html>

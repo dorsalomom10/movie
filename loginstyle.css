@@ -1,0 +1,23 @@
+﻿
+#tbl_login
+{
+    width: 600px;
+    margin-right:400px;
+}
+#form_login {
+    margin-top: 50px;
+}
+#login {
+    font-size: 30px;
+    color: #ffffff;
+    padding-bottom: 15px;
+    margin-right: 400px;
+}
+.msg {
+    color: #FFD700;
+    text-align: center;
+}
+#register{
+    color:#ffffff;
+    font-size:15px;
+}
